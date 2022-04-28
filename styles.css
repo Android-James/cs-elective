@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* attributes for img */
+img{
+    width: 75px;
+    height: 75px;
+}
+/* attributes for list, a, and button */
+li, a, button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ae7c54;
+    text-decoration: none;
+}
+/* attributes for header */
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    height: 75px;
+    background-color: #13424C;
+}
+/* attributes for the logo */
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+/* attributes for the nav links */
+.nav_links{
+    list-style:center;
+    padding: 10px 20px;
+}
+/* attributes for the lists inside the nav link */
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+/* attributes for a inside the lists in the nav link */
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+/* attributes when hovering a inside the lists in the nav link */
+.nav_links li a:hover{
+    font-weight: bolder; 
+}
+/* attributes when the element is active*/
+.nav_links li a:active{
+    font-weight: bold;
+    color: white;
+}
+/* attributes for the button */
+button1{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}
+ /* attributes whenever user hovers the button */
+button1:hover{
+    background-color: black;
+}
+
+ /* start of the hero image */
+.hero-image{
+    /* Use "linear-gradient" to add a darken background effect to the image. This will make the text easier to read */
+    background-image: url("/imgs/honda-clarity.jpg");
+    /* set a specific height */
+    height: 900px;
+
+    /* position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}   
+.color-overlay{
+    width: 70%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    filter: blur(100px);
+}
+/* place text in the image */
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 33px;
+    font-weight: normal;
+}
+/* attributes for button 2 */
+button2{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: all 0.3s ease 0s;
+}
+ /* attributes whenever user hovers the button */
+button2:hover{
+    background-color: #13424C;
+}
