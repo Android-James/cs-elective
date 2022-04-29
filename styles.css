@@ -31,7 +31,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color:#ae7c54;
+  color: #ae7c54;
   margin: 15px 0 20px 0;
 }
 
@@ -47,11 +47,15 @@ p {
   padding: 20px 80px;
   background: #13424c;
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
-.logo{
-    height: 100px;
-    width: px;
-    margin-right: auto;
+.logo {
+  height: 100px;
+  width: px;
+  object-fit: fill;
 }
 #navbar {
   display: flex;
@@ -91,27 +95,66 @@ p {
 
 /* home page */
 
-#hero{
-    background-image: url(/imgs/martin-katler-WyGUO1k7AEQ-unsplash.jpg);
-    height: 900px;
-    background-position: top 25% right 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
+#hero {
+  background-image: url(/imgs/hero\ img.jpg);
+  height: 900px;
+  background-position: top 25% right 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-#hero h4,h2{
-    padding-bottom: 15px;
+#hero h4,
+h2 {
+  padding-bottom: 15px;
 }
 
-#hero h1{
-    color:#13424c;
+#hero h1 {
+  color: #13424c;
 }
 
-#hero button{
+#hero p{
+    color: black;
+    font-weight: 500;
+}
 
+#hero button {
+  padding: 9px 25px;
+  background-color: #13424c;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transform: all 0.3s ease 0s;
+  color: #ae7c54;
+  font-weight: 700;
+  font-size: 15px;
+  background-repeat: no-repeat;
+
+}
+
+#hero button:hover{
+    color: white;
+    background-color: black;
+}
+
+#feature img{
+    width: 200px;
+}
+
+#feature .fe-box{
+    width: 220px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgb(70, 62, 221, 0.1);
 }
