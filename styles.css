@@ -5,11 +5,6 @@
     margin: 0;
     padding: 0;
 }
-/* attributes for img */
-img{
-    width: 75px;
-    height: 75px;
-}
 /* attributes for list, a, and button */
 li, a, button{
     font-family: "Poppins", sans-serif;
@@ -26,11 +21,6 @@ header{
     padding: 30px 10%;
     height: 75px;
     background-color: #13424C;
-}
-/* attributes for the logo */
-.logo{
-    cursor: pointer;
-    margin-right: auto;
 }
 /* attributes for the nav links */
 .nav_links{
