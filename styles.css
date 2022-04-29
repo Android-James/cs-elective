@@ -141,6 +141,10 @@ h2 {
     background-color: black;
 }
 
+#features{
+    background-color: #218490;
+}
+
 #feature{
     display: flex;
     align-items: center;
@@ -160,6 +164,7 @@ h2 {
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
+    background: #13424c;
 }
 
 #feature .fe-box:hover{
@@ -176,8 +181,26 @@ h2 {
     padding: 9px 8px 6px 8px;
     line-height: 1;
     border-radius: 4px;
-    color: #ae7c54;
-    background-color: #13424c;
+    color: black;
+    background-color: #ae7c54;
 }
 
+#feature .fe-box:nth-child(2) h6{
+    background-color: violet;
+}
 
+#feature .fe-box:nth-child(3) h6{
+    background-color: lightskyblue;
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: red;
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: lightgreen;
+}
+
+#feature .fe-box:nth-child(6) h6{
+    background-color: lightblue;
+}
