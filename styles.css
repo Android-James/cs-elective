@@ -141,6 +141,13 @@ h2 {
     background-color: black;
 }
 
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #feature img{
     width: 200px;
 }
@@ -158,3 +165,19 @@ h2 {
 #feature .fe-box:hover{
     box-shadow: 10px 10px 54px rgb(70, 62, 221, 0.1);
 }
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #ae7c54;
+    background-color: #13424c;
+}
+
+
