@@ -31,7 +31,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: white;
+  color:#ae7c54;
   margin: 15px 0 20px 0;
 }
 
@@ -48,7 +48,11 @@ p {
   background: #13424c;
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
 }
-
+.logo{
+    height: 100px;
+    width: px;
+    margin-right: auto;
+}
 #navbar {
   display: flex;
   align-items: cen;
@@ -88,9 +92,26 @@ p {
 /* home page */
 
 #hero{
-    background-image: url(/imgs/honda-clarity.jpg);
+    background-image: url(/imgs/martin-katler-WyGUO1k7AEQ-unsplash.jpg);
     height: 900px;
     background-position: top 25% right 0;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#hero h4,h2{
+    padding-bottom: 15px;
+}
+
+#hero h1{
+    color:#13424c;
+}
+
+#hero button{
+
 }
