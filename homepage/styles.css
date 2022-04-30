@@ -44,7 +44,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 1px 80px;
   background: #13424c;
   box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
   z-index: 999;
@@ -52,11 +52,18 @@ p {
   top: 0;
   left: 0;
 }
-.logo {
+
+/* .logo {
   height: 100px;
   width: px;
   object-fit: fill;
+} */
+
+#header h1{
+  font-size: xx-large;
+  color: black;
 }
+
 #navbar {
   display: flex;
   align-items: cen;
