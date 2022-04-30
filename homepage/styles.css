@@ -96,7 +96,7 @@ p {
 /* home page */
 
 #hero {
-  background-image: url(/imgs/hero\ img.jpg);
+  background-image: url(/homepage/imgs/hero\ img.jpg);
   height: 900px;
   background-position: top 25% right 0;
   background-size: cover;
