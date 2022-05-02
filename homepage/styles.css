@@ -43,7 +43,7 @@ p {
   margin: 40px 0;
 }
 
-button.normal{
+button.normal {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
@@ -56,7 +56,19 @@ button.normal{
   transition: 0.2s;
 }
 
-body{
+button.white {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+}
+
+body {
   width: 100%;
 }
 
@@ -80,7 +92,7 @@ body{
   object-fit: fill;
 } */
 
-#header h1{
+#header h1 {
   font-size: xx-large;
   color: black;
 }
@@ -315,40 +327,130 @@ h2 {
   right: 10px;
 }
 
-
 /* kulang pa ng banner picture, wala pa akong mahanap na maayos */
-#banner { 
+#banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: end;
-  /* background-image: url("/homepage/imgs/banner.png"); */
-  background-color: #13424c;
-  background-size: cover;
+  text-align: center;
+  background-image: url("/homepage/imgs/banner.png");
+  /* background-color: #13424c; */
   width: 100%;
   height: 40vh;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
 }
 
-#banner h4{
+#banner h4 {
   color: white;
   font-size: 25px;
 }
 
-#banner h2{
+#banner h2 {
   color: white;
   font-size: 50px;
   padding: 10px;
 }
 
-#banner h2 span{
+#banner h2 span {
   color: #ae7c54;
 }
 
-#banner button:hover{
+#banner button:hover {
   color: white;
   background-color: #218490;
+}
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 1.avif");
+  /* background-color: #13424c; */
+  background-size: cover;
+  min-width: 850px;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+  background-image: url(/homepage/imgs/sm-banner/sm-banner\ 2.jpg);
+}
+
+#sm-banner h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#sm-banner h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+#sm-banner span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button {
+  background-color: #218490;
+  border: 1px solid #218490;
+}
+
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 3.jpg");
+  /* background-color: #13424c; */
+  background-size: cover;
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 4.png");
+}
+
+#banner3 .banner-box3 {
+  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 5.png");
+}
+
+#banner3 .banner-box h2 {
+  color: red;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 .banner-box h3 {
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+  margin-bottom: 100px;
 }
