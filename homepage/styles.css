@@ -39,6 +39,27 @@ p {
   padding: 40px 80px;
 }
 
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: black;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+body{
+  width: 100%;
+}
+
 /* start header */
 #header {
   display: flex;
@@ -292,4 +313,42 @@ h2 {
   position: absolute;
   bottom: 20px;
   right: 10px;
+}
+
+
+/* kulang pa ng banner picture, wala pa akong mahanap na maayos */
+#banner { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: end;
+  /* background-image: url("/homepage/imgs/banner.png"); */
+  background-color: #13424c;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#banner h4{
+  color: white;
+  font-size: 25px;
+}
+
+#banner h2{
+  color: white;
+  font-size: 50px;
+  padding: 10px;
+}
+
+#banner h2 span{
+  color: #ae7c54;
+}
+
+#banner button:hover{
+  color: white;
+  background-color: #218490;
 }
