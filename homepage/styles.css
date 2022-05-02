@@ -454,3 +454,55 @@ h2 {
   font-size: 15px;
   margin-bottom: 100px;
 }
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  /* background-image: url("/homepage/imgs/newsletter.png"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #13424c;
+}
+
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #cce7d0;
+
+}
+
+#newsletter p{
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+#newsletter p span{
+  color: #ae7c54;
+}
+
+#newsletter .form{
+  display: flex;
+  width: 40%;
+}
+
+#newsletter input{
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+  background-color: #218490;
+  color: white;
+  white-space: nowrap;
+}
