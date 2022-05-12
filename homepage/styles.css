@@ -758,3 +758,27 @@ footer .copyright{
 #blog .blog-details p{
   color: #222;
 }
+
+/* About Page */
+#page-header.about-header{
+  background-image: url("/about-page/about\ hero.png");
+}
+
+#about-head h2,
+#about-head p{
+  color: #13424c;
+}
+
+#about-head{
+  display: flex;
+  align-items: center;
+}
+
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+
+#about-head div{
+  padding-left: 40px;
+}
