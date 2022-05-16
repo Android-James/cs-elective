@@ -785,6 +785,10 @@ footer .copyright{
 
 /* contact-page */
 
+#page-header.contact-header{
+  background-image: url("/contact-page/contact.png");
+}
+
 #contact-details{
   display: flex;
   align-items: center;
@@ -899,65 +903,71 @@ footer .copyright{
 
 /* cart-page */
 
-#cart table{
+#page-header.cart-header{
+  background-image: url("/cart-page/cart.png");
+}
+
+#cart-items table{
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
   white-space: nowrap;
 }
 
-#cart table img{
+#cart-items table img{
   width: 60%;
 }
 
-#cart table td:nth-child(1){
+#cart-items table td:nth-child(1){
   width: 100px;
   text-align: center;
 }
 
-#cart table td:nth-child(2){
+#cart-items table td:nth-child(2){
   width: 150px;
   text-align: center;
 }
 
-#cart table td:nth-child(3){
+#cart-items table td:nth-child(3){
   width: 250px;
   text-align: center;
 }
 
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6){
+#cart-items table td:nth-child(4),
+#cart-items table td:nth-child(5),
+#cart-items table td:nth-child(6),
+#cart-items table td:nth-child(7){
   width: 150px;
   text-align: center;
 }
 
-#cart table td:nth-child(5) input {
+#cart-items table td:nth-child(5) input {
   width: 70px;
   padding: 10px 5px 10px 15px;
 }
 
-#cart table thead{
+#cart-items table thead{
   border: 1px solid #e2e9e1;
   border-left: none;
   border-right: none;
 }
 
-#cart table thead td{
+#cart-items table thead td{
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   padding: 18px 0;
 }
 
-#cart table tbody tr td{
+#cart-items table tbody tr td{
   padding-top: 15px;
 }
 
-#cart table tbody tr td button{
+#cart-items table tbody tr td button{
   border: none;
 }
 
-#cart table tbody td {
+#cart-items table tbody td {
   font-size: 13px;
 }
+
