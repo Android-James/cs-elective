@@ -455,7 +455,7 @@ h2 {
   margin-bottom: 100px;
 }
 
-#newsletter{
+#newsletter {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -467,29 +467,28 @@ h2 {
   background-color: #13424c;
 }
 
-#newsletter h4{
+#newsletter h4 {
   font-size: 22px;
   font-weight: 700;
   color: #cce7d0;
-
 }
 
-#newsletter p{
+#newsletter p {
   font-size: 14px;
   font-weight: 700;
   color: white;
 }
 
-#newsletter p span{
+#newsletter p span {
   color: #ae7c54;
 }
 
-#newsletter .form{
+#newsletter .form {
   display: flex;
   width: 40%;
 }
 
-#newsletter input{
+#newsletter input {
   height: 3.125rem;
   padding: 0 1.25em;
   font-size: 14px;
@@ -501,83 +500,83 @@ h2 {
   border-bottom-right-radius: 0;
 }
 
-#newsletter button{
+#newsletter button {
   background-color: #218490;
   color: white;
   white-space: nowrap;
 }
 
-footer{
+footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-footer .col{
+footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 20px;
 }
 
-footer .logo{
+footer .logo {
   margin-bottom: 30px;
 }
 
-footer h1{
+footer h1 {
   color: #13424c;
 }
 
-footer h4{
+footer h4 {
   font-size: 14px;
   padding-bottom: 20px;
   color: #218490;
 }
 
-footer p{
+footer p {
   font-size: 13px;
   margin: 0 0 8px 0;
   color: black;
 }
 
-footer a{
+footer a {
   font-size: 13px;
   text-decoration: none;
   color: #222;
   margin-bottom: 10px;
 }
 
-footer .follow{
+footer .follow {
   margin-top: 20px;
 }
 
-footer .follow i{
+footer .follow i {
   color: #465b52;
   padding-right: 4px;
   cursor: pointer;
 }
 
-footer .install .row img{
+footer .install .row img {
   border: 1px solid white;
   border-radius: 6px;
 }
 
-footer .install img{
+footer .install img {
   margin: 10px 0 15px 0;
 }
 
 footer .follow i:hover,
-footer a:hover{
+footer a:hover {
   color: #ae7c54;
 }
 
-footer .copyright{
+footer .copyright {
   width: 100%;
   text-align: center;
 }
 
 /* shop-page */
-#page-header{
+#page-header {
   background-image: url("/shop-page/imgs/shop-hero.jpg");
   width: 100%;
   height: 45vh;
@@ -590,15 +589,15 @@ footer .copyright{
 }
 
 #page-header h2,
-#page-header p{
+#page-header p {
   color: white;
 }
 
-#pagination{
+#pagination {
   text-align: center;
 }
 
-#pagination a{
+#pagination a {
   text-decoration: none;
   background-color: #13424c;
   padding: 15px 20px;
@@ -607,55 +606,55 @@ footer .copyright{
   font-weight: 600;
 }
 
-#pagination a i{
+#pagination a i {
   font-size: 16px;
   font-weight: 600;
 }
 
 /* Single Product */
 
-#pro-details{
+#pro-details {
   display: flex;
   margin-top: 20px;
 }
 
-#pro-details .single-pro-image{
+#pro-details .single-pro-image {
   width: 40%;
   margin-right: 50px;
 }
 
-.small-img-group{
+.small-img-group {
   display: flex;
   justify-content: space-between;
 }
 
-.small-img-col{
+.small-img-col {
   flex-basis: 33%;
   cursor: pointer;
 }
 
-#pro-details .single-pro-details{
+#pro-details .single-pro-details {
   width: 50%;
   padding-top: 30px;
 }
 
-#pro-details .single-pro-details h4{
+#pro-details .single-pro-details h4 {
   padding: 40px 0 20px 0;
   color: #13424c;
 }
 
-#pro-details .single-pro-details h2{
+#pro-details .single-pro-details h2 {
   font-size: 26px;
   color: #13424c;
 }
 
-#pro-details .single-pro-details select{
+#pro-details .single-pro-details select {
   display: block;
-  padding: 5px 10px ;
+  padding: 5px 10px;
   margin-bottom: 10px;
 }
 
-#pro-details .single-pro-details input{
+#pro-details .single-pro-details input {
   width: 50px;
   height: 47px;
   padding-left: 10px;
@@ -663,35 +662,34 @@ footer .copyright{
   margin-right: 10px;
 }
 
-#pro-details .single-pro-details input:focus{
+#pro-details .single-pro-details input:focus {
   outline: none;
 }
 
-#pro-details .single-pro-details button{
+#pro-details .single-pro-details button {
   background-color: #218490;
   color: white;
 }
 
-#pro-details .single-pro-details span{
+#pro-details .single-pro-details span {
   line-height: 25px;
-  
 }
 
 /* Blog page */
-#page-header.blog-header{
+#page-header.blog-header {
   background-image: url(/blog-page/imgs/reading.png);
 }
 
-#page-header .blog-h2, 
-#page-header .blog-p{
+#page-header .blog-h2,
+#page-header .blog-p {
   color: #13424c;
 }
 
-#blog{
+#blog {
   padding: 150px 150px 0 150px;
 }
 
-#blog .blog-box{
+#blog .blog-box {
   display: flex;
   align-items: center;
   width: 100%;
@@ -699,22 +697,22 @@ footer .copyright{
   padding-bottom: 90px;
 }
 
-#blog .blog-img{
+#blog .blog-img {
   width: 50%;
   margin-right: 40px;
 }
 
-#blog img{
+#blog img {
   width: 90%;
   height: 400px;
   object-fit: cover;
 }
 
-#blog .blog-details{
+#blog .blog-details {
   width: 50%;
 }
 
-#blog .blog-details a{
+#blog .blog-details a {
   text-decoration: none;
   font-size: 17px;
   color: #13424c;
@@ -723,25 +721,25 @@ footer .copyright{
   transition: 0.3s;
 }
 
-#blog .blog-details a::after{
+#blog .blog-details a::after {
   content: "";
   width: 50px;
   height: 1px;
-  background-color:#13424c;
+  background-color: #13424c;
   position: absolute;
   top: 10px;
   right: -60px;
 }
 
-#blog .blog-details a:hover{
+#blog .blog-details a:hover {
   color: #218490;
 }
 
-#blog .blog-details a:hover:after{
+#blog .blog-details a:hover:after {
   background-color: #218490;
 }
 
-#blog .blog-box h1{
+#blog .blog-box h1 {
   position: absolute;
   top: -40px;
   left: 0;
@@ -751,101 +749,101 @@ footer .copyright{
   z-index: -9;
 }
 
-#blog .blog-details h4{
+#blog .blog-details h4 {
   color: black;
 }
 
-#blog .blog-details p{
+#blog .blog-details p {
   color: #222;
 }
 
 /* About Page */
-#page-header.about-header{
+#page-header.about-header {
   background-image: url("/about-page/about\ hero.png");
 }
 
 #about-head h2,
-#about-head p{
+#about-head p {
   color: #13424c;
 }
 
-#about-head{
+#about-head {
   display: flex;
   align-items: center;
 }
 
-#about-head img{
+#about-head img {
   width: 50%;
   height: auto;
 }
 
-#about-head div{
+#about-head div {
   padding-left: 40px;
 }
 
 /* contact-page */
 
-#page-header.contact-header{
+#page-header.contact-header {
   background-image: url("/contact-page/contact.png");
 }
 
-#contact-details{
+#contact-details {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#contact-details .details{
+#contact-details .details {
   width: 40%;
 }
 
 #contact-details .details span,
-#form-details form span{
+#form-details form span {
   font-size: 12px;
 }
 
-#contact-details .details  h2,
-#form-details form h2{
+#contact-details .details h2,
+#form-details form h2 {
   font-size: 26px;
   line-height: 35px;
   padding: 20px 0;
   color: #13424c;
 }
 
-#contact-details .details h3{
+#contact-details .details h3 {
   font-size: 16px;
   padding-bottom: 15px;
   color: #13424c;
 }
 
-#contact-details .details li{
+#contact-details .details li {
   list-style: none;
   display: flex;
   padding: 10px 0;
 }
 
-#contact-details .details li i{
- font-size: 14px;
- padding-right: 22px;
+#contact-details .details li i {
+  font-size: 14px;
+  padding-right: 22px;
 }
 
-#contact-details .details li p{
+#contact-details .details li p {
   margin: 0;
   font-size: 14px;
   color: #1a1a1a;
 }
 
-#contact-details .map{
+#contact-details .map {
   width: 55%;
   height: 400px;
 }
 
-#contact-details .map iframe{
+#contact-details .map iframe {
   width: 100%;
   height: 100%;
 }
 
-#form-details{
+#form-details {
   display: flex;
   justify-content: space-between;
   margin: 30px;
@@ -853,15 +851,15 @@ footer .copyright{
   border: 1px solid #e1e1e1;
 }
 
-#form-details form{
+#form-details form {
   width: 65%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-#form-details form input, 
-#form-details form textarea{
+#form-details form input,
+#form-details form textarea {
   width: 100%;
   padding: 12px 15px;
   outline: none;
@@ -869,32 +867,32 @@ footer .copyright{
   border: 1px solid #e1e1e1;
 }
 
-#form-details form button{
+#form-details form button {
   background-color: #13424c;
   color: white;
 }
 
-#form-details .people div{
+#form-details .people div {
   padding-bottom: 25px;
   display: flex;
   align-items: flex-start;
 }
 
-#form-details .people div img{
+#form-details .people div img {
   width: 65px;
   height: 65px;
   object-fit: cover;
   margin-right: 15px;
 }
 
-#form-details .people div p{
+#form-details .people div p {
   margin: 0;
   font-size: 13px;
   line-height: 25px;
   color: #13424c;
 }
 
-#form-details .people div p span{
+#form-details .people div p span {
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -903,32 +901,32 @@ footer .copyright{
 
 /* cart-page */
 
-#page-header.cart-header{
+#page-header.cart-header {
   background-image: url("/cart-page/cart.png");
 }
 
-#cart-items table{
+#cart-items table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
   white-space: nowrap;
 }
 
-#cart-items table img{
+#cart-items table img {
   width: 60%;
 }
 
-#cart-items table td:nth-child(1){
+#cart-items table td:nth-child(1) {
   width: 100px;
   text-align: center;
 }
 
-#cart-items table td:nth-child(2){
+#cart-items table td:nth-child(2) {
   width: 150px;
   text-align: center;
 }
 
-#cart-items table td:nth-child(3){
+#cart-items table td:nth-child(3) {
   width: 250px;
   text-align: center;
 }
@@ -936,7 +934,7 @@ footer .copyright{
 #cart-items table td:nth-child(4),
 #cart-items table td:nth-child(5),
 #cart-items table td:nth-child(6),
-#cart-items table td:nth-child(7){
+#cart-items table td:nth-child(7) {
   width: 150px;
   text-align: center;
 }
@@ -946,28 +944,27 @@ footer .copyright{
   padding: 10px 5px 10px 15px;
 }
 
-#cart-items table thead{
+#cart-items table thead {
   border: 1px solid #e2e9e1;
   border-left: none;
   border-right: none;
 }
 
-#cart-items table thead td{
+#cart-items table thead td {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
   padding: 18px 0;
 }
 
-#cart-items table tbody tr td{
+#cart-items table tbody tr td {
   padding-top: 15px;
 }
 
-#cart-items table tbody tr td button{
+#cart-items table tbody tr td button {
   border: none;
 }
 
 #cart-items table tbody td {
   font-size: 13px;
 }
-
