@@ -167,7 +167,7 @@ a:hover{
 	border-radius: 25px;
 	outline: none;
 	border: none;
-	background-image: linear-gradient(to right, #131313, #131313, #13424c);
+	background-image: linear-gradient(to right, #13424c, #131313, #13424c);
 	background-size: 200%;
 	font-size: 1.2rem;
 	color: #fff;
@@ -181,6 +181,31 @@ a:hover{
 }
 .btn:hover{
 	background-position: right;
+}
+
+.social-text{
+	padding: 0.7rem 0;
+	color: #13424c;
+}
+
+.social-media{
+	display: flex;
+	justify-content: center;
+}
+
+.social-icon{
+	height: 46px;
+	width: 46px;
+	border: 1px solid #131313;
+	margin: 0 0.45rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 50%;
+	transition: all 0.5s;
+	background-color: #13424c;
 }
 
 
