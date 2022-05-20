@@ -12,16 +12,38 @@ textarea {
   font-family: "Poppins", sans-serif;
 }
 
+/* .bg-modal {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 60%;
+  visibility: hidden;
+ } */
+
 .container {
-  position: relative;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
   width: 100%;
   min-height: 100vh;
   padding: 2rem;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  transform: translate(700px) scale(0.1);
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 0;
+  transform: translate(0px) scale(1);
 }
 
 .form {
@@ -226,6 +248,10 @@ textarea.input {
   align-items: center;
   font-size: 0.95rem;
 }
+
+.information .info-data{
+  color: #13424c;
+} 
 
 .icon {
   width: 28px;
