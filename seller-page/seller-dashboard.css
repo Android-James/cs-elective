@@ -87,6 +87,12 @@ body{
     white-space: nowrap;
     opacity: 1;
 }
+
+.sidebar .text .profession{
+  padding-top: 10px;
+  text-align: center;
+}
+
 .sidebar.close .text{
     opacity: 0;
 }
@@ -187,11 +193,6 @@ body.dark .sidebar li a:hover .text{
     background-color: var(--primary-color-light);
     position: relative;
     transition: var(--tran-05);
-}
-
-.menu-bar .mode .sun-moon{
-    height: 50px;
-    width: 60px;
 }
 
 .switch::before{
