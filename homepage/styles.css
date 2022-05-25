@@ -99,7 +99,7 @@ body {
 
 #navbar {
   display: flex;
-  align-items: cen;
+  align-items: center;
   justify-content: center;
 }
 
@@ -675,6 +675,17 @@ footer .copyright {
   line-height: 25px;
 }
 
+#pro-details .single-pro-details .add-wishlist {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color: #218490;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
 /* Blog page */
 #page-header.blog-header {
   background-image: url(/blog-page/imgs/reading.png);
@@ -937,7 +948,7 @@ footer .copyright {
 #wishlist-items table td:nth-child(5),
 #wishlist-items table td:nth-child(6),
 #wishlist-items table td:nth-child(7),
-#wishlist-items table td:nth-child(8){
+#wishlist-items table td:nth-child(8) {
   width: 150px;
   text-align: center;
 }
@@ -971,3 +982,5 @@ footer .copyright {
 #wishlist-items table tbody td {
   font-size: 13px;
 }
+
+/* start of media query */
