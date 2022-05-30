@@ -593,3 +593,82 @@ header .image-text .name {
   font-size: 13px;
   font-weight: 500;
 }
+
+/* order page */
+
+.completed{
+  color: green;
+  font-weight: 800;
+}
+
+.processing{
+  color: red;
+  font-weight: 800;
+}
+
+.order-table {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+.order-table table td:nth-child(1) {
+  width: 70px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(2) {
+  width: 100px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(3) {
+  width: 150px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(4),
+.order-table table td:nth-child(5),
+.order-table table td:nth-child(6),
+.order-table table td:nth-child(7),
+.order-table table td:nth-child(8) {
+  width: 150px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+.order-table table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+.order-table table thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 18px 0;
+}
+
+.order-tabletable tbody tr td {
+  padding-top: 13px;
+}
+
+.order-table table tbody tr td button {
+  border: none;
+}
+
+.order-table table tbody td {
+  font-size: 13px;
+  font-weight: 500;
+}
