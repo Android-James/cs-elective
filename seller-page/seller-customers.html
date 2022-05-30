@@ -48,8 +48,8 @@
               </a>
             </li>
 
-            <li class="nav-link" >
-              <a href="#" class="active">
+            <li class="nav-link">
+              <a href="/seller-page/seller-addproduct.html">
                 <i class="bx bx-folder-plus icon"></i>
                 <span class="text nav-text">Add Products</span>
               </a>
@@ -63,7 +63,7 @@
             </li> -->
 
             <li class="nav-link">
-              <a href="/seller-page/seller-customers.html">
+              <a href="#" class="active">
                 <i class="bx bx-user icon"></i>
                 <span class="text nav-text">Customers</span>
               </a>
@@ -97,86 +97,36 @@
     </nav>
 
     <section class="home">
-      <div class="text">Add a product</div>
+      <div class="text">Customers</div>
 
-      <div class="drag-area">
-        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
-        <header>Drag & Drop to Upload File</header>
-        <span>OR</span>
-        <button>Browse File</button>
-        <input type="file" hidden>
+      <div class="product-table">
+        <table class="table">
+          <thead>
+            <th>Remove</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Country</th>
+            <th>Phone</th>
+            <th>Email</th>
+          </thead>
+          <!-- <tbody>
+            sample lang to kung ano itsura
+            <tr>
+              <td>
+                <button class="remove-btn">
+                  <i class="far fa-times-circle"></i>
+                </button>
+              </td>
+              <td class="customer-name">Adam Kingslayer</td>
+              <td class="customer-address">2298 Grand Avenue ONAWA, Iowa(IA), 51040</td>
+              <td class="customer-country">United States of America</td>
+              <td class="customer-phone">407-809-5285</td>
+              <td class="customer-email">adamkingslayer88@gmail.com</td>
+            </tr>
+          </tbody> -->
+        </table>
       </div>
-
-      <div class="wrapper">
-        <div class="title">
-          Product Details
-        </div>
-        <div class="form">
-           <div class="inputfield">
-              <label>Brand Name</label>
-              <input type="text" class="input">
-           </div>  
-
-            <div class="inputfield">
-              <label>Product Unit</label>
-              <input type="text" class="input">
-           </div>  
-
-           <div class="inputfield">
-              <label>Minimun Price</label>
-              <input type="integer" class="input">
-           </div>  
-
-          <div class="inputfield">
-              <label>Maximum Price</label>
-              <input type="integer" class="input">
-           </div> 
-
-            <div class="inputfield">
-              <label>Color Options</label>
-              <div class="custom_select">
-                <select>
-                  <option value="">Select</option>
-                  <option value="green">Green</option>
-                  <option value="black">Black</option>
-                  <option value="white">White</option>
-                  <option value="orange">Orange</option>
-                  <option value="yellow">Yellow</option>
-                </select>
-              </div>
-           </div> 
-
-            <div class="inputfield">
-              <label>Maximum Discount</label>
-              <input type="integer" class="input">
-           </div> 
-          <div class="inputfield">
-              <label>Stocks</label>
-              <input type="integer" class="input">
-           </div> 
-          <div class="inputfield">
-              <label>Product Details</label>
-              <textarea class="textarea"></textarea>
-           </div> 
-          <div class="inputfield">
-              <label>Warehouse Address</label>
-              <input type="text" class="input">
-           </div> 
-          <div class="inputfield terms">
-              <label class="check">
-                <input type="checkbox">
-                <span class="checkmark"></span>
-              </label>
-              <p>Agreed to terms and conditions</p>
-           </div> 
-          <div class="inputfield">
-            <input type="submit" value="Submit" class="btn">
-          </div>
-        </div>
-    </div>
     </section>
-
-    <script src="/seller-page/seller-dashboard.js"></script>
 
     <script>
       const body = document.querySelector("body"),
