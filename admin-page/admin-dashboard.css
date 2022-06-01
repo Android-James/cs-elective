@@ -228,3 +228,225 @@ header .image-text .name {
   height: 100vh;
   width: calc(100% - 78px);
 }
+
+/* order page */
+
+.completed{
+  color: green;
+  font-weight: 800;
+}
+
+.processing{
+  color: red;
+  font-weight: 800;
+}
+
+.order-table {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.order-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+.order-table table td:nth-child(1) {
+  width: 70px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(2) {
+  width: 100px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(3) {
+  width: 150px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(4),
+.order-table table td:nth-child(5),
+.order-table table td:nth-child(6),
+.order-table table td:nth-child(7),
+.order-table table td:nth-child(8) {
+  width: 150px;
+  text-align: center;
+}
+
+.order-table table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+.order-table table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+.order-table table thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 18px 0;
+}
+
+.order-tabletable tbody tr td {
+  padding-top: 13px;
+}
+
+.order-table table tbody tr td button {
+  border: none;
+}
+
+.order-table table tbody td {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* product page */
+
+.product-table {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+.product-table table img {
+  width: 60%;
+}
+
+.product-table table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+
+.product-table table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+
+.product-table table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+
+.product-table table td:nth-child(4),
+.product-table table td:nth-child(5),
+.product-table table td:nth-child(6),
+.product-table table td:nth-child(7),
+.product-table table td:nth-child(8) {
+  width: 150px;
+  text-align: center;
+}
+
+.product-table table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+.product-table table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+.product-table table thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 18px 0;
+}
+
+.product-table table tbody tr td {
+  padding-top: 13px;
+}
+
+.product-table table tbody tr td button {
+  border: none;
+}
+
+.product-table table tbody td {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* customer page */
+
+
+.customer-table {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.customer-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+}
+
+.customer-table table td:nth-child(1) {
+  width: 100px;
+  text-align: center;
+}
+
+.customer-table table td:nth-child(2) {
+  width: 150px;
+  text-align: center;
+}
+
+.customer-table table td:nth-child(3) {
+  width: 250px;
+  text-align: center;
+}
+
+.customer-table table td:nth-child(4),
+.customer-table table td:nth-child(5),
+.customer-table table td:nth-child(6),
+.customer-table table td:nth-child(7),
+.customer-table table td:nth-child(8) {
+  width: 150px;
+  text-align: center;
+}
+
+.customer-table table td:nth-child(5) input {
+  width: 70px;
+  padding: 10px 5px 10px 15px;
+}
+
+.customer-table table thead {
+  border: 1px solid #e2e9e1;
+  border-left: none;
+  border-right: none;
+}
+
+.customer-table table thead th {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 18px 0;
+}
+
+.customer-tabletable tbody tr td {
+  padding-top: 13px;
+}
+
+.customer-table table tbody tr td button {
+  border: none;
+}
+
+.customer-table table tbody td {
+  font-size: 13px;
+  font-weight: 500;
+}
