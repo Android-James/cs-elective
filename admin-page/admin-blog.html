@@ -20,6 +20,7 @@
     <!--<title>Dashboard Sidebar Menu</title>-->
   </head>
   <body>
+    
     <nav class="sidebar">
       <header>
         <div class="image-text">
@@ -55,7 +56,7 @@
             </li>
 
             <li class="nav-link">
-              <a href="/admin-page/admin-products.html" class="active">
+              <a href="/admin-page/admin-products.html">
                 <i class="bx bxs-package icon" ></i>
                 <span class="text nav-text">Products</span>
               </a>
@@ -76,7 +77,7 @@
             </li>
 
             <li class="nav-link">
-              <a href="/admin-page/admin-blog.html">
+              <a href="/admin-page/admin-blog.html" class="active">
                 <i class='bx bxs-book-content icon' ></i>
                 <span class="text nav-text">Blog Page</span>
               </a>
@@ -117,42 +118,37 @@
     </nav>
 
     <section class="home">
-      <div class="text">Products</div>
+      <div class="text">Edit Blog Section</div>
 
-      <div class="product-table">
-        <table class="table">
-          <thead>
-            <th>Remove</th>
-            <th>Image</th>
-            <th>Brand</th>
-            <th>Product</th>
-            <th>Color</th>
-            <th>Price</th>
-            <th>Stock</th>
-            <th>Orders</th>
-          </thead>
-          <!-- <tbody>
-            sample lang to kung ano itsura
-            <tr>
-              <td>
-                <button class="remove-btn">
-                  <i class="far fa-times-circle"></i>
-                </button>
-              </td>
-              <td class="product-img">
-                <img src="/products/sample car 1.jpg" alt="" />
-              </td>
-              <td class="product-name">Product Name</td>
-              <td class="colors">Black, Orange, Red, Blue</td>
-              <td class="price">$1,000,000</td>
-              <td class="stock">100</td>
-              <td class="orders">40</td>
-            </tr>
-          </tbody> -->
-        </table>
+      <div class="drag-area">
+        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+        <header>Drag & Drop to Upload File</header>
+        <span>OR</span>
+        <button>Browse File</button>
+        <input type="file" hidden />
+      </div>
+
+      <div class="wrapper">
+        <div class="title">First Paragraph</div>
+        <div class="form">
+          <div class="inputfield">
+            <!-- <label>Details</label> -->
+            <textarea class="textarea"></textarea>
+          </div>
+          <div class="inputfield">
+            <label>Link</label>
+            <input type="text" class="input" />
+          </div>
+          <div class="inputfield">
+            <input type="submit" value="Submit" class="btn" />
+          </div>
+        </div>
       </div>
     </section>
-    
+
+
+    <script src="/admin-page/admin-pages.js"></script>
+
     <script>
       const body = document.querySelector("body"),
         sidebar = body.querySelector("nav"),
