@@ -231,15 +231,18 @@ header .image-text .name {
 
 /* order page */
 
-.completed{
+.completed,
+.full-time{
   color: green;
   font-weight: 800;
 }
 
-.processing{
+.processing,
+.part-time{
   color: red;
   font-weight: 800;
 }
+
 
 .order-table {
   padding-top: 20px;

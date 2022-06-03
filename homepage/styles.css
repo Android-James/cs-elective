@@ -373,7 +373,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 1.avif");
+  background-image: url("/homepage/imgs/sm-banner/sm-banner\ 1.png");
   /* background-color: #13424c; */
   background-size: cover;
   min-width: 850px;
@@ -481,6 +481,7 @@ h2 {
 
 #newsletter p span {
   color: #ae7c54;
+  padding-left: 0;
 }
 
 #newsletter .form {
@@ -666,7 +667,13 @@ footer .copyright {
   outline: none;
 }
 
-#pro-details .single-pro-details button {
+#pro-details .single-pro-details button{
+  background-color: #218490;
+  color: white;
+}
+
+#pro-details .single-pro-details .to-compare{
+  text-decoration: none;
   background-color: #218490;
   color: white;
 }
